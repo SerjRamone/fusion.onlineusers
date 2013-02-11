@@ -1,6 +1,6 @@
 <?php
 /**
- * Инсталляция модуля serjramon
+ * Инсталляция модуля fusion.onlineusers
  *
  * @author  Sergey Greznov — Fusion LLC
  * @since   14/01/2013
