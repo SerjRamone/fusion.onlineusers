@@ -6,7 +6,7 @@
 			<span class="online_user_content_bolder">Сегодня:</span> <?=date('d.m.Y')?>
 			<br />
 			<span class="online_user_content_bolder">Пользователей онлайн:</span>
-			<a href="/company/who-on-line.php" title="Кто On-Line?"><?=count($arResult["ONLINE_USERS"]);?></a>
+			<a href="<?=$arParams['PATH_TO_LIST']?>" title="Кто On-Line?"><?=count($arResult["ONLINE_USERS"]);?></a>
 		</div>
 	</div>
 	<i class="r0"></i><i class="r1"></i><i class="r2"></i>
