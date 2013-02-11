@@ -1,4 +1,4 @@
 <?
-$MESS ['GD_BIRTHDAY_NAME'] = "Birthdays";
-$MESS ['GD_BIRTHDAY_DESC'] = "Shows employees with the soonest birthdays";
+$MESS ['GD_USERS_ONLINE'] = "Users online";
+$MESS ['GD_USERS_ONLINE_DESC'] = "Shows online employees";
 ?>

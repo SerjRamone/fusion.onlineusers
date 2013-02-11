@@ -98,8 +98,9 @@ class fusion_onlineusers extends CModule {
 	 * @return bool
 	 */
 	public function UnInstallFiles() {
-		DeleteDirFilesEx("/bitrix/components/fusion");
-		DeleteDirFilesEx("/bitrix/gadgets/fusion");
+		DeleteDirFilesEx("/bitrix/components/fusion/intranet.structure.list.usersonline");
+		DeleteDirFilesEx("/bitrix/components/fusion/intranet.usersonline");
+		DeleteDirFilesEx("/bitrix/gadgets/fusion/usersonline");
 		return true;
 	}
 
