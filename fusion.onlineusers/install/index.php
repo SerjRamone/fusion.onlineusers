@@ -22,14 +22,14 @@ IncludeModuleLangFile($strPath2Lang . "/install/index.php");
 
 class fusion_onlineusers extends CModule {
 
-	public $MODULE_ID = 'fusion.onlineusers';
-	public $MODULE_VERSION;			// see version.php
-	public $MODULE_VERSION_DATE;	// see version.php
-	public $MODULE_NAME;
-	public $MODULE_DESCRIPTION;
+	var $MODULE_ID = 'fusion.onlineusers';
+	var $MODULE_VERSION;			// see version.php
+	var $MODULE_VERSION_DATE;	// see version.php
+	var $MODULE_NAME;
+	var $MODULE_DESCRIPTION;
 
-	public $PARTNER_NAME = 'Веб-интегратор Fusion';
-	public $PARTNER_URI = 'http://www.efusion.ru/';
+	var $PARTNER_NAME;
+	var $PARTNER_URI;
 
 	/**
 	 * Инициализация модуля для страницы "Управление модулями"
@@ -47,6 +47,9 @@ class fusion_onlineusers extends CModule {
 
 		$this->MODULE_NAME = GetMessage('FUSION_MODULE_NAME');
 		$this->MODULE_DESCRIPTION = GetMessage('FUSION_MODULE_DESC');
+
+		$this->PARTNER_NAME = 'Веб-интегратор Fusion';
+		$this->PARTNER_URI = 'http://www.efusion.ru/';
 	}
 
 	/**
