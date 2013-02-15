@@ -23,3 +23,4 @@ fusion.onlineusers
 * Веб-интегратор Фьюжн (Fusion)
 * http://efusion.ru/
 
+http://marketplace.1c-bitrix.ru/solutions/fusion.onlineusers/
